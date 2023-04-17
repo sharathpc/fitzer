@@ -1,0 +1,32 @@
+.card {
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+    background: #7a3e6c;
+    .cardHeader {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .cardTitle {
+            flex: 1;
+            font-size: 1em;
+            font-weight: 600;
+        }
+    }
+
+    .cardTime {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        .recent {
+            font-size: 0.8em;
+        }
+    }
+}
