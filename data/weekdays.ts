@@ -197,11 +197,11 @@ export default [{
     workoutType: 'Overall',
     checked: false,
     color: '#443C68',
-    workouts: [, {
+    workouts: [{
         label: 'Weak Point Training',
         reps: 0,
         sets: 0,
-        link: null
+        link: ''
     }]
 }, {
     label: 'Saturday',

@@ -8,7 +8,7 @@ interface props {
 
 export default function Weekday({ day }: props) {
     return (
-        <Link href={`/${day.label}`}>
+        <Link href={`day/${day.label}`}>
             <li className={styles.card} style={{ backgroundColor: day.color }}>
                 <div className={styles.cardHeader}>
                     <div className={styles.cardTitle}>{day.label}</div>
