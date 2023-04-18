@@ -1,5 +1,6 @@
 export default [{
     label: 'Monday',
+    refCodeId: 10001,
     workoutType: 'Chest',
     checked: false,
     color: '#2A2F4F',
@@ -46,6 +47,7 @@ export default [{
     }]
 }, {
     label: 'Tuesday',
+    refCodeId: 10002,
     workoutType: 'Shoulder',
     checked: false,
     color: '#454545',
@@ -97,6 +99,7 @@ export default [{
     }]
 }, {
     label: 'Wednesday',
+    refCodeId: 10003,
     workoutType: 'Lats',
     checked: false,
     color: '#66347F',
@@ -138,6 +141,7 @@ export default [{
     }]
 }, {
     label: 'Thursday',
+    refCodeId: 10004,
     workoutType: 'Bicep',
     checked: false,
     color: '#A7727D',
@@ -194,6 +198,7 @@ export default [{
     }]
 }, {
     label: 'Friday',
+    refCodeId: 10005,
     workoutType: 'Overall',
     checked: false,
     color: '#443C68',
@@ -205,6 +210,7 @@ export default [{
     }]
 }, {
     label: 'Saturday',
+    refCodeId: 10006,
     workoutType: 'Legs',
     checked: false,
     color: '#CE5959',

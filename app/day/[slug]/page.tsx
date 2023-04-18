@@ -8,7 +8,8 @@ type Props = {
 }
 
 export default function Workouts({ params }: Props) {
-  const day = weeksdata.find(day => day.label === params.slug);
+  const dayRefCodeId = parseInt(params.slug);
+  const day = weeksdata.find(day => day.refCodeId === dayRefCodeId);
   return (
     <main className={styles.main}>
       <div className={styles.daySection}>
