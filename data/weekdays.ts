@@ -71,8 +71,8 @@ export default [{
         link: 'https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row'
     }, {
         label: 'Deadlifts',
-        reps: 15,
-        sets: 3,
+        reps: 0,
+        sets: 4,
         link: 'https://www.muscleandstrength.com/exercises/deadlifts.html'
     }, {
         label: 'Lats Pullover With Dumbell',
@@ -97,26 +97,156 @@ export default [{
     }]
 }, {
     label: 'Wednesday',
-    workoutType: 'Chest',
+    workoutType: 'Lats',
     checked: false,
     color: '#66347F',
-    workouts: []
+    workouts: [{
+        label: 'Seated Military Press With Zigzag Rod',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/seated-row.html'
+    }, {
+        label: 'Machine Shoulder Press',
+        reps: 20,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html'
+    }, {
+        label: 'Dumbell Military Press',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/close-grip-pull-down.html'
+    }, {
+        label: 'Face Pull',
+        reps: 15,
+        sets: 4,
+        link: 'https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row'
+    }, {
+        label: 'Side Lateral Raises',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/deadlifts.html'
+    }, {
+        label: 'Upright Rows & Shrugs',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/dumbbell-pullover.html'
+    }, {
+        label: 'Calf Raise HVA',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }]
 }, {
     label: 'Thursday',
-    workoutType: 'Chest',
+    workoutType: 'Bicep',
     checked: false,
     color: '#A7727D',
-    workouts: []
+    workouts: [{
+        label: 'Diamond Pushups',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/seated-row.html'
+    }, {
+        label: 'Zigzag Rod Medium Grip Bicep Curl',
+        reps: 15,
+        sets: 4,
+        link: 'https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html'
+    }, {
+        label: 'Dumbell Skull Crusher',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/close-grip-pull-down.html'
+    }, {
+        label: 'Rope Press Down',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row'
+    }, {
+        label: 'Rope Hammer Curl',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/deadlifts.html'
+    }, {
+        label: 'Seated Bicep Curl',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/dumbbell-pullover.html'
+    }, {
+        label: 'Tricep Kick Back',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }, {
+        label: 'Cross Hammer',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }, {
+        label: 'Back Extension',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }, {
+        label: 'Incline Bicep Curl With Dumbells',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }]
 }, {
     label: 'Friday',
-    workoutType: 'Chest',
+    workoutType: 'Overall',
     checked: false,
     color: '#443C68',
-    workouts: []
+    workouts: [, {
+        label: 'Weak Point Training',
+        reps: 0,
+        sets: 0,
+        link: null
+    }]
 }, {
     label: 'Saturday',
-    workoutType: 'Chest',
+    workoutType: 'Legs',
     checked: false,
     color: '#CE5959',
-    workouts: []
+    workouts: [{
+        label: 'Squats',
+        reps: 50,
+        sets: 1,
+        link: 'https://www.muscleandstrength.com/exercises/seated-row.html'
+    }, {
+        label: 'Split Lunges With Dumbells',
+        reps: 20,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html'
+    }, {
+        label: 'Duck Walk To Wall',
+        reps: 0,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/close-grip-pull-down.html'
+    }, {
+        label: 'Sumo Deadlifts',
+        reps: 0,
+        sets: 4,
+        link: 'https://www.muscleandstrength.com/exercises/banded-machine-t-bar-row'
+    }, {
+        label: 'Hamstring',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/deadlifts.html'
+    }, {
+        label: 'Leg Press',
+        reps: 15,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/dumbbell-pullover.html'
+    }, {
+        label: 'Leg Extension',
+        reps: 25,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }, {
+        label: 'Seated Calf Raises',
+        reps: 20,
+        sets: 3,
+        link: 'https://www.muscleandstrength.com/exercises/superman'
+    }]
 }];
